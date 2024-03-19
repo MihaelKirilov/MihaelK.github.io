@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/logo_m.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Mihael Kirilov | A Software Developer based in Sofia, BG
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Python,JS,React,CSS,GCP,ETL,DBT" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Mihael Kirilov</span>
+        </h1>
+        <p>A Software Developer based in Sofia, BG
+</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>NY Taxi Trips Analyses</h3>
+              <p>
+                Explore the impact of COVID-19 on New York taxi trips compared to the preceding year through this project.
+              </p>
+              <ul class="work__list">
+                <li>Mage.ai ETL orchestrator</li>
+                <li>Google Cloud Platform</li>
+                <li>BigQuery</li>
+                <li>DBT(data build tool)</li>
+                <li>Google Looker Studio</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/MihaelKirilov/NY-Taxi-Trips-Analyses" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/MihaelKirilov/NY-Taxi-Trips-Analyses title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/trips_analyses.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Online Marketplace</h3>
+              <p>
+                This is a Django-based web application built to streamline communication between users, manage and selling items via a user-friendly dashboard.
+              </p>
+              <ul class="work__list">
+                <li>Django</li>
+                <li>Tailwind</li>
+                <li>HTML</li>
+                <li>SQLite</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/MihaelKirilov/Online-Marketplace" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/MihaelKirilov/Online-Marketplace">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/itemforsell.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Quizzical App</h3>
+              <p>
+                A user-friendly platform designed for interactive learning, where users can test their knowledge on diverse topics through engaging quizzes and receive immediate feedback.
+              </p>
+              <ul class="work__list">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://quizz-app-blue.vercel.app/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/MihaelKirilov/Quizz-APP">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/quiz.jpg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            A passionate software developer based in Sofia, Bulgaria. With a keen interest in technology and a strong foundation in programming, I am dedicated to continuously learning and honing my skills in the ever-evolving field of software development.</p>
+            <p>I am always open to new challenges and opportunities for growth, and I look forward to connecting with fellow developers, mentors, and potential collaborators.</p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/pic.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Thank you for taking the time to explore my portfolio. If you have any questions, project inquiries, or collaboration opportunities, I would love to hear from you. Please feel free to reach out to me via email 
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:mvencikirilov@gmail.com" class="btn">mvencikirilov@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/MihaelKirilov" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
